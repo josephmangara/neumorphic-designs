@@ -1,0 +1,21 @@
+body {
+  background-color: #141414;
+  color: aliceblue;
+}
+
+.card1 {
+  width: 400px;
+  height: 80px;
+  border-radius: 16px;
+
+  /*intending to center text vertically and horizontally*/
+  flex: auto;
+  justify-content: center;
+
+  background: #141414;
+  box-shadow: 
+  inset 12px 12px 20px #080808,
+  inset -2px -2px 5px #d8d8d8,
+  8px 0 5px rgba(230, 30, 60, 0.35);
+}
+
